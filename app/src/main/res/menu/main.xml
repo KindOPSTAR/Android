@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_off"
+        android:orderInCategory="100"
+        android:title="Turn off video"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_on"
+        android:orderInCategory="100"
+        android:title="Turn on video"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:padding="10sp"
+    android:layout_height="match_parent">
+
+
+                <TableLayout
+                    android:layout_width="350dp"
+                    android:layout_height="450dp"
+                   >
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0"
+                        android:paddingBottom="8sp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="2"
+                            android:layout_weight="1.5"
+                            android:text="Stats"
+                            android:textSize="20sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="3"
+                            android:textSize="20sp"
+                            android:layout_weight="1"
+                            android:text="Gem" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="4"
+                            android:textSize="20sp"
+                            android:layout_weight="1"
+                            android:text="Flat" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="5"
+                            android:textSize="20sp"
+                            android:layout_weight="1.5"
+                            android:text="Final" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="20sp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:layout_weight="1"
+                            android:text="Hp"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextHp1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="2"
+                            android:layout_weight="1.5"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextHp2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextHp3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="4"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textHpFinal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="5"
+                            android:layout_weight="1.5"
+                            android:text="999"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:layout_weight="1"
+                            android:text="Atk"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextAtk1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="2"
+                            android:layout_weight="1.5"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextAtk2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextAtk3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="4"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textAtkFinal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="5"
+                            android:layout_weight="1.5"
+                            android:text="999"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:layout_weight="1"
+                            android:text="Def"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextDef1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="2"
+                            android:layout_weight="1.5"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextDef2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextDef3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="4"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textDefFinal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="5"
+                            android:layout_weight="1.5"
+                            android:text="999"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:layout_weight="1"
+                            android:text="Rec"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextRec1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="2"
+                            android:layout_weight="1.5"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextRec2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextRec3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="4"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textRecFinal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="5"
+                            android:layout_weight="1.5"
+                            android:text="999"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:layout_weight="1"
+                            android:text="Crit Dmg"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextCritDmg1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="2"
+                            android:layout_weight="1.5"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextCritDmg2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextCritDmg3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="4"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:text="0.0"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textCritDmgFinal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="5"
+                            android:layout_weight="1.5"
+                            android:text="999"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:layout_weight="1"
+                            android:text="Crit Rate"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextCritRate1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="2"
+                            android:layout_weight="1.5"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextCritRate2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextCritRate3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="4"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:text="0.0"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textCritRateFinal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="5"
+                            android:layout_weight="1.5"
+                            android:text="999"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:layout_weight="1"
+                            android:text="Resist"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextRes1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="2"
+                            android:layout_weight="1.5"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextRes2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/editTextRes3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="4"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            android:text="0.0"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textResFinal"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_column="5"
+                            android:layout_weight="1.5"
+                            android:text="999"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                </TableLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "412561070527",
+    "firebase_url": "https://intrepid-memory-224708.firebaseio.com",
+    "project_id": "intrepid-memory-224708",
+    "storage_bucket": "intrepid-memory-224708.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412561070527:android:d279645a4ac3bb08",
+        "android_client_info": {
+          "package_name": "com.mickey.mish.mslfandom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412561070527-jd0r6a8mofv8cqv5qj18nfv1odlridl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mickey.mish.mslfandom",
+            "certificate_hash": "28ec44c5e39910ae13372e15f69db8334e4326e6"
+          }
+        },
+        {
+          "client_id": "412561070527-e6702hn6fseoeig2aku974t4lalgrgtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbqRMpNUqhryPgzBsS4n2t_J9zrFacEhQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412561070527-e6702hn6fseoeig2aku974t4lalgrgtc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
