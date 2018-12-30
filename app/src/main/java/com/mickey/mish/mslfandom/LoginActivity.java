@@ -21,8 +21,6 @@ public class LoginActivity extends AppCompatActivity {
     private EditText password;
     FirebaseUser currentUser ;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
+                            Toast.makeText(LoginActivity.this,"Logging in  .",Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(intent);
                         }
@@ -45,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
     }
     public void buttonClicked(View view){
         currentUser = mAuth.getCurrentUser();
-        if(currentUser!=null) {
+        if(currentUser==null) {
             login();
         }else {
             // If sign in fails,
@@ -55,12 +54,12 @@ public class LoginActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 login();
+                            }else {
+                                Toast.makeText(LoginActivity.this,"Login Failed. Please Try Again",Toast.LENGTH_SHORT).show();
                             }
 
                         }
                     });
         }
-
-
     }
 }

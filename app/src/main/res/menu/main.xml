@@ -12,4 +12,9 @@
         android:orderInCategory="100"
         android:title="Turn on video"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/logOut"
+        android:orderInCategory="100"
+        android:title="Log out"
+         />
 </menu>

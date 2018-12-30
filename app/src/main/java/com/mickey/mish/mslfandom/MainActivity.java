@@ -169,6 +169,13 @@ public class MainActivity extends AppCompatActivity
             editor.apply();
             return true;
         }
+        if (id == R.id.logOut) {
+            mAuth.signOut();
+            Intent loginIntent = new Intent(this, LoginActivity.class);
+            loginIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(loginIntent);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
