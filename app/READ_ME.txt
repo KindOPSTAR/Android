@@ -1,6 +1,6 @@
 /************************************************************
  * READ ME                                                  *
- * Developer: Mickey Stone Shi 18038037, He Zhang 16216941  *
+ * Developer: Mickey Stone Shi, He Zhang 16216941 An Le 16349453 *
  ************************************************************
 
  * this application is developed basing on the context of Monster Super League(A mobile game).
