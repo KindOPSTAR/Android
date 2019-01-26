@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+%packages
+
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[document]{ragged2e}
+\usepackage{titling}
+\usepackage{enumitem}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+
+\renewcommand{\maketitle}{ %overload overwrite an existing command
+\thispagestyle{empty}
+\begin{figure}
+\vspace{-1cm}
+\centering
+\includegraphics[width=0.6\textwidth]{masseyUniversityLogo.png}\\[1cm]
+\end{figure}
+
+\begin{center}
+\textcolor{Blu}{\sc\centering\onehalfspacing\fontsize{4mm}{6mm}\selectfont Floreat scientia\\Let knowledge flourish\\[1cm]}
+\end{center}
+\begin{center}
+\Large\bfseries\sc 159.333 Computer Science Programming\\[0.5cm] \bfseries\Huge\sc Project Report\\[0.3cm]\normalsize\sc Monster Data Calculator\\ 
+\end{center}
+
+\vspace{3cm}
+
+\centering
+\includegraphics[width=0.5\textwidth]{androidLogo.png}\\[1cm]
+
+\vspace{2cm}
+\begin{minipage}{0.4\textwidth}
+\begin{justify} \large
+\emph{Author:}\\
+AN LE 16349453\textsc{\\HE ZHANG 16216941 \\} % Your name
+\author{HE ZHANG 16216941, AN LE 16349453}
+\end{justify}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Teacher:} \\
+Dr Martin\textsc{Johnson \\}
+\end{flushright}
+\end{minipage}\\
+\begin{center}
+\vfill
+{\sc Academic year 2018-2019}
+\end{center}
+}
+
+
+\begin{document}
+\maketitle
+\newpage
+
+\pagenumbering{Roman}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+
+%\clearemptydoublepage
+%\addcontentsline{toc}{chapter}{Symbols Index}
+%\chaptermark{Notation}
+%\printglossary
+%\markboth{List of Notation \hfill}{List of Notation \hfill}
+%%%\listofnotations %%does not work
+%%%%% end Notation
+
+\newpage
+\begin{abstract}
+\begin{justify}\item Monster super league is a collection of RPGs that allow you to venture across multiple maps, discover and capture monsters, and grow together by fighting.\newline
+\item This project is mainly designed for 'Monster Super League' which built by android studio. The application is including three parts which are the database part, the calculation part and games’ part.\newline
+\item In database part, allows users to create monsters who have user-defined name, selectable photo and some characteristics such as HP, ATK, DEF/AC, Extra attributes, etc. Also allows users to create gems that have user-defined name, selectable photo and some characteristics such as HP, ATK, DEF/AC, Extra attributes, etc. for strengthen/improve monsters who wearing. Store users’ information, e.g. Account ID, Password and their own monsters’ library, gems’ library and results’ library. \newline
+\item In calculation's part, the application can helps players to calculate battle’s result between two selected monsters and each monster is allowed wear up to three gems. The result can upload to online web. \newline
+\item The completed application has two different version - online and offline mode, which is able to work on local machine or work with online database. \\Better play by using better way.
+\end{justify}
+
+\end{abstract}
+\newpage
+
+\pagenumbering{arabic}
+%Chapter 1
+\chapter{Introduction}\label{chapter:Introduction}
+
+\input{Chapter1.tex}
+
+
+\end{document}
